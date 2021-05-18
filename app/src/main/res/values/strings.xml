@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">CodeTrade practical</string>
+    <string name="create_account">Create account</string>
+    <string name="user_name">User name</string>
+    <string name="create_password">Create password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="submit">Submit</string>
+    <string name="email">Email</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign up</string>
+
+
+    <!--    //validation msg-->
+    <string name="enter_name">Please enter name</string>
+    <string name="enter_email">Please enter email</string>
+    <string name="enter_valid_email">Please enter valid email</string>
+    <string name="enter_password">Please enter password</string>
+    <string name="error_message_please_enter_valid_name">Please enter valid name</string>
+    <string name="enter_4_password">Please enter minimum 4 characters for password</string>
+    <string name="enter_confirm_password">Please enter confirm password</string>
+    <string name="password_mismatch">Password mismatch</string>
+    <string name="google_login">Google Login</string>
+    <string name="view_profile">View profile</string>
+    <string name="logout">Logout</string>
+
+    <string name="connection_exception">OOPS! NO INTERNET. Please check your network connection. Try Again</string>
+    <string name="socket_time_out_exception">Connection time out</string>
+    <string name="other_exception">Something wrong here</string>
+</resources>

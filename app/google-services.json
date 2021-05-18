@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "460100413788",
+    "firebase_url": "https://test-f9a86-default-rtdb.firebaseio.com",
+    "project_id": "test-f9a86",
+    "storage_bucket": "test-f9a86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460100413788:android:a63d678588925644f7b999",
+        "android_client_info": {
+          "package_name": "com.codetrade.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460100413788-o0pncivqgpajmb32tvbt30i2p9qep7ds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-oTNIagC4BYqOoY1TJ6HUf-RP0UcveJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460100413788-o0pncivqgpajmb32tvbt30i2p9qep7ds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
