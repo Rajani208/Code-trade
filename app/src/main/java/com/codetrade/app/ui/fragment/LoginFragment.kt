@@ -50,6 +50,7 @@ class LoginFragment : BaseFragment(), View.OnClickListener {
     override fun onClick(p0: View?) {
         when (p0) {
             textViewSubmit -> {
+                hideKeyBoard()
                 if (isValidate()) {
                     navigator.toggleLoader(true)
                     auth.signInWithEmailAndPassword(editTextEmail.text.toString(), editTextPassword.text.toString()).addOnCompleteListener(activity!!) { task ->

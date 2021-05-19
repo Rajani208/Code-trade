@@ -1,15 +1,15 @@
 package com.codetrade.app.ui.fragment
 
-import android.view.View
 import com.codetrade.app.AuthenticationActivity
 import com.codetrade.app.R
 import com.codetrade.app.data.pojo.User
 import com.codetrade.app.di.component.FragmentComponent
 import com.codetrade.app.ui.base.BaseFragment
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseUser
-import com.google.firebase.database.*
-import kotlinx.android.synthetic.main.fragment_home.*
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
+import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ValueEventListener
 import kotlinx.android.synthetic.main.fragment_profile.*
 
 

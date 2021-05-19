@@ -64,8 +64,8 @@ class NetModule {
 
         return Interceptor { chain ->
             val build = chain.request().newBuilder()
-                    .addHeader(Session.API_KEY, session.apiKey)
-                    .addHeader(Session.USER_SESSION, session.userSession)
+//                    .addHeader(Session.API_KEY, session.apiKey)
+//                    .addHeader(Session.USER_SESSION, session.userSession)
                     .build()
             chain.proceed(build)
         }
